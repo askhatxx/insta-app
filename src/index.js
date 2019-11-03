@@ -6,5 +6,5 @@ import App from './App';
 ReactDOM.render(<App />, document.getElementById('root'));
 
 /*
-d 1
+d 2
 */
