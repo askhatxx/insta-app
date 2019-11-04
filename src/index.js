@@ -6,5 +6,6 @@ import App from './App';
 ReactDOM.render(<App />, document.getElementById('root'));
 
 /*
-d 2
+d 3 1:10
+json-server src/posts.json
 */
