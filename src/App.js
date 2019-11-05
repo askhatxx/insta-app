@@ -8,7 +8,7 @@ function App() {
     return (
         <Router>
             <div className="App">
-                <Header />
+                <Header/>
                 <Route path='/' component={Feed} exact/>
                 <Route path='/profile' component={Profile} exact/>
             </div>

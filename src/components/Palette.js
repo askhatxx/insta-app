@@ -34,10 +34,10 @@ export default class Palette extends Component {
 
     renderItems(arr) {
         return arr.map(item => {
-            const {src, alt} = item;
+            const {src, alt, id} = item;
 
             return (
-                <img src={src} alt={alt}></img>
+                <img key={id} src={src} alt={alt}></img>
             )
         })
     }
